@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf4f4;
+}
+
+
+
+#custom-info p{
+    display: block;
+    font-size: 18px;
+    color: #926f7a;
+    text-align: start;
+    margin-top: 20px;
+}
+
+select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #c4a1a5;
+    border-radius: 5px;
+    background-color: #f8f0f0;
+    color: #926f7a;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover and focus styles */
+select:hover, select:focus {
+    border-color: #926f7a;
+    outline: none;
+}
+
+/* Dropdown list options */
+option {
+    background-color: #f9e5e5;
+    color: #926f7a;
+}
+
+
+
+
+
+
+
+/* General Styles */
+
+
+.custom-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.image-container{
+    width:100%;
+    
+}
+
+.image-container img {
+    height: 400px;
+    width: 100%;
+    
+}
+
+.custom-header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #926f7a;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+.custom-content {
+    overflow: scroll;
+    font-family:Helvetica, sans-serif;
+    background-color: #ffecec;
+    border-radius: 5px;
+    width:40%;
+    height: 80%;
+    
+}
+
+#custom-info{
+    padding: 30px;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity-container button {
+    background-color: #c4a1a5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#quantity {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.price-container {
+    margin-bottom: 20px;
+}
+
+#add-to-cart-btn {
+    background-color: #c4a1a5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Cart Modal */
+.cart-modal {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cart-modal.hidden {
+    display: none;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#close-cart-btn {
+    background-color: #c4a1a5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

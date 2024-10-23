@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orders</title>
+    <link rel="icon" href="logoo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <img class="logo"src="logoo.png" alt="logo">
+        <div id="navbar">
+            <nav>
+                <a href="index.html" target="_self">Home</a>
+                <a href="about_us.html" target="_self" class="dropbtn">About Us</a>
+                   <a href="menu.html" target="_self">Menu</a>
+                   <a href="order.html" target="_self">Order Online</a>
+                   <a href="contact.html" target="_self">Contact</a>
+            </nav>
+        </div>
+        <a href="#" target="_self"> <button class="login"><b><i class="fa-solid fa-user"></i> Log In</b></button> </a>
+        <button class="cart"><i class="fa-solid fa-cart-shopping"></i></button>
+    </header>
+
+
+
+    <main>
+        <div class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    How would you like to receive your order?
+                </div>
+                <a href="order.html"><span class="modal-close">&times;</span></a>
+                <div class="order-option">
+                    <a href="order_pickup.html"></a><button class="active">Pickup</button>
+                    <a href="order_delivery.html"><button>Delivery</button></a>
+                </div>
+        
+                <div class="info-section">
+                    <label>Pickup from:</label>
+                    <div>Don Bosco Panjim M.G. Road,<br>Panjim, Goa - 403001</div>
+        
+                    <div class="time-options">
+                        <label>When:</label>
+                        <input type="radio" name="time" value="30-minutes" checked>  up to 30 minutes<br>
+                        <input type="radio" name="time" value="schedule-later">  Schedule for later
+                    </div>
+                </div>
+        
+                <a href="order.html"><button class="save-button">Save</button></a>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="actual_footer">
+            <div class="navdown">
+           
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="order.html">Order Online</a>
+           
+    
+            </div>
+            <div class="info"  >
+        <p class="address">Don Bosco Panjim M.G. Road,<br>Panjim, Goa - 403001</p>
+        <p class="topic">Hermosa Bites</p>
+        <p class="contact-info">91+1234567890 <br> bites@gmail.com</p>
+    </div>
+    </div>
+           
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>
